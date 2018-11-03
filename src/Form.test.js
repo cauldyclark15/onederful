@@ -5,7 +5,7 @@ import Form from './Form';
 
 test('react-testing-library', () => {
   const handleSubmit = jest.fn();
-  const { getByLabelText, getByText } = render(
+  const { getByLabelText, getByTestId } = render(
     <Form onSubmit={handleSubmit} />
   );
   const emailInput = getByLabelText('email');
@@ -14,7 +14,7 @@ test('react-testing-library', () => {
   const passwordInput = getByLabelText('password');
   passwordInput.value = 'nononono';
 
-  const submitButton = getByText('submit');
+  const submitButton = getByTestId('f1-submit');
   submitButton.click();
 
   expect(handleSubmit).toHaveBeenCalledTimes(1);

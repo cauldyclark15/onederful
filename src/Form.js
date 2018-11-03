@@ -12,7 +12,9 @@ function SampleForm({ onSubmit }) {
     >
       <LabeledInput label="email" />
       <LabeledInput label="password" />
-      <Button htmlType="submit">submit</Button>
+      <Button data-testid="f1-submit" htmlType="submit">
+        submit
+      </Button>
     </form>
   );
 }
