@@ -1,44 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description: Create a simple website that fetches patient's health insurance information using onederful api (https://developers.onederful.co/). This website will be used by dental offices to verify the eligibility of a patient's insurance information.
 
-## Available Scripts
+Requirements
 
-In the project directory, you can run:
+1. A simple form where a user of this website can put in the patient's information like first, last name, member ID, birthdate, provider
+2. Upon form submit, it should make an api call to fetch information about the patient's health insurance like basic information, coverage, deductible, limitations, coinsurance, maximums
+3. Add ability to add dependents (https://developers.onederful.co/#request_dependent) when submitting the form.
+4. Unit test (Use any framework. Ideally jest)
+5. This website should be deployed in a publicly accessible url
+6. Github url where the source code is pushed
 
-### `npm start`
+Tech stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. React
+2. Antd (https://ant.design/docs/react/introduce)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can use the following credential to interact with onederful API
+Onederful credential
+AUTH_URL = 'https://sandbox.onederful.co/sandbox/oauth2/token';
+ELIGIBILITY_URL = 'https://sandbox.onederful.co/sandbox/eligibility';
+CLIENT_ID = 'ONEDERFUL_CLIENT_ID';
+CLIENT_SECRET = 'ONEDERFUL_CLIENT_SECRET';

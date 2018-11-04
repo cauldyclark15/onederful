@@ -7,11 +7,12 @@ function SampleForm({ onSubmit }) {
       onSubmit={event => {
         event.preventDefault();
         const elementValues = getElementValues(event.target);
+
         onSubmit(elementValues);
       }}
     >
       <LabeledInput label="email" />
-      <LabeledInput label="password" />
+      <LabeledInput label="password" type="password" />
       <Button data-testid="f1-submit" htmlType="submit">
         submit
       </Button>

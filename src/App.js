@@ -21,8 +21,11 @@ class App extends Component {
       }),
     });
 
-    const { access_token, expires_in } = await response.json();
+    const responseJson = await response.json();
+    const { access_token, expires_in } = responseJson;
+
     const dateNow = new Date().getTime();
+
     localStorage.setItem('accessToken', access_token);
     localStorage.setItem(
       'expirationDate',
@@ -30,17 +33,14 @@ class App extends Component {
     );
   }
 
-  _onSubmit = e => {
-    e.preventDefault();
-    const { email, password } = e.target;
-
-    console.log(email.value, password.value);
+  _onSubmit = values => {
+    console.log({ values });
   };
 
   render() {
     return (
       <div>
-        <Form handleSubmit={this._onSubmit} />
+        <Form onSubmit={this._onSubmit} />
       </div>
     );
   }
