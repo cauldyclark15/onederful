@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly and unchange so far 1`] = `
+<div
+  className="ant-card ant-card-bordered"
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="ant-card-head"
+    style={Object {}}
+  >
+    <div
+      className="ant-card-head-wrapper"
+    >
+      <div
+        className="ant-card-head-title"
+      >
+        Coinsurance
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-card-body"
+    style={Object {}}
+  >
+    <div
+      className="ant-table-wrapper"
+    >
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+            style={Object {}}
+          >
+            <div
+              className="ant-table-content"
+            >
+              <div
+                className="ant-table-body"
+                onScroll={[Function]}
+                onWheel={[Function]}
+                style={Object {}}
+              >
+                <table
+                  className=""
+                  style={Object {}}
+                >
+                  <colgroup>
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <col
+                      style={
+                        Object {
+                          "minWidth": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                  </colgroup>
+                  <thead
+                    className="ant-table-thead"
+                  >
+                    <tr
+                      style={
+                        Object {
+                          "height": null,
+                        }
+                      }
+                    >
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          Insurance Type
+                        </div>
+                      </th>
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          Service Type
+                        </div>
+                      </th>
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          Network Status
+                        </div>
+                      </th>
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          % String
+                        </div>
+                      </th>
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          % for Provider
+                        </div>
+                      </th>
+                      <th
+                        className=""
+                      >
+                        <div
+                          onClick={[Function]}
+                        >
+                          Percentage
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    className="ant-table-tbody"
+                  />
+                </table>
+              </div>
+              <div
+                className="ant-table-placeholder"
+              >
+                No data
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
