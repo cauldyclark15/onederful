@@ -13,12 +13,19 @@ export const Samp = styled.samp`
 
 export const MainWrapper = styled.div`
   display: flex;
-  flex-direction: horizontal;
+  flex-direction: row;
   height: 100vh;
   width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
+
+  @media only screen and (max-width: 1080px) {
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
 
   div.screen {
     display: flex;
@@ -52,5 +59,25 @@ export const CardWrapper = styled.div`
 
   form {
     padding-right: 85px;
+
+    @media only screen and (max-width: 1700px) {
+      padding-right: 70px;
+    }
+
+    @media only screen and (max-width: 1600px) {
+      padding-right: 55px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+      padding-right: 35px;
+    }
+
+    @media only screen and (max-width: 1250px) {
+      padding-right: 10px;
+    }
+
+    @media only screen and (max-width: 1080px) {
+      padding-right: 0px;
+    }
   }
 `;
