@@ -33,7 +33,7 @@ export const MainWrapper = styled.div`
   }
 
   div.result {
-    flex: 11;
+    flex: 15;
     margin-right: 7px;
     margin-left: 3.5px;
   }
@@ -51,6 +51,6 @@ export const CardWrapper = styled.div`
   background: #fff;
 
   form {
-    padding-right: 55px;
+    padding-right: 85px;
   }
 `;

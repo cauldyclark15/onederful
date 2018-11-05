@@ -100,7 +100,6 @@ function PatientForm({
           memberId="dependentMemberId"
           formItemLayout={formItemLayout}
           getFieldDecorator={getFieldDecorator}
-          isDependent
         />
       )}
       <FormItem {...tailFormItemLayout}>

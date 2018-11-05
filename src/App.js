@@ -13,6 +13,7 @@ class App extends Component {
     patientData: {},
     loading: false,
     showAddDependentFields: false,
+    menuIndex: '1',
   };
 
   async componentDidMount() {
@@ -22,6 +23,10 @@ class App extends Component {
       await authenticate();
     }
   }
+
+  _onSelectMenu = ({ key }) => {
+    this.setState({ menuIndex: key });
+  };
 
   _onAddDependent = event => {
     this.setState({ showAddDependentFields: event.target.checked });
@@ -81,11 +86,16 @@ class App extends Component {
   };
 
   render() {
-    const { patientData, loading, showAddDependentFields } = this.state;
+    const {
+      patientData,
+      loading,
+      showAddDependentFields,
+      menuIndex,
+    } = this.state;
     return (
       <MainWrapper>
         <div className="screen form">
-          <CardWrapper onScroll={showAddDependentFields} className="left">
+          <CardWrapper className="left">
             <Alert
               style={{ margin: '16px 0', paddingLeft: 20, paddingRight: 20 }}
               message="Information form"
@@ -103,7 +113,12 @@ class App extends Component {
               style={{ margin: '16px 0', paddingLeft: 20, paddingRight: 20 }}
               message="Patient's information"
             />
-            <Result data={patientData} isLoading={loading} />
+            <Result
+              data={patientData}
+              isLoading={loading}
+              menuIndex={menuIndex}
+              onSelect={this._onSelectMenu}
+            />
           </CardWrapper>
         </div>
       </MainWrapper>
