@@ -11,11 +11,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: 'us-east-2'
-  app: 'onederful-jc'
-  env: 'OnederfulJc-env'
-  bucket_name: 'elasticbeanstalk-us-east-2-170254947321'
-  bucket_path: 'onederful-jc'
+  region: 'us-west-1'
+  app: 'onederful'
+  env: 'Onederful-env'
+  bucket_name: 'elasticbeanstalk-us-west-1-170254947321'
+  bucket_path: 'onederful'
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
