@@ -1,23 +1,19 @@
-# telling docker we need super user access
 sudo: required
 services:
   - docker
-
 before_install:
-  - docker build -t cauldyclark15/onederful:v1 -f Dockerfile.dev .
-
+  - openssl aes-256-cbc -K $encrypted_0388ef4df1d1_key -iv $encrypted_0388ef4df1d1_iv
+    -in sec.json.enc -out sec.json -d
+  - openssl aes-256-cbc -K $encrypted_0ca8706286d1_key -iv $encrypted_0ca8706286d1_iv
+    -in secret_key.json.enc -out secret_key.json -d
+  - docker build -t cauldyclark15/onederful -f Dockerfile.dev .
 script:
-  - docker run cauldyclark15/onederful:v1 npm run test -- --coverage
-
+  - docker run cauldyclark15/onederful yarn test -- --coverage
 deploy:
-  provider: elasticbeanstalk
-  region: 'us-west-1'
-  app: 'onederful'
-  env: 'Onederful-env'
-  bucket_name: 'elasticbeanstalk-us-west-1-170254947321'
-  bucket_path: 'onederful'
+  provider: gae
+  keyfile: sec.json.enc
+  project: onderful-221618
+  docker_build: remote
+  default: true
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: '$AWS_SECRET_KEY'
