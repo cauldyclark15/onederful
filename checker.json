@@ -1,0 +1,2370 @@
+{
+  "onederfulId": "19a6c770-e0ab-11e8-90f8-f98cc958e59c",
+  "subscriber": {
+    "name": "John Doe",
+    "address": "807 WRIGHT COURT, SAN GABRIEL, CA, 911075506",
+    "member_id": "1525935052",
+    "dob": "11/01/1980",
+    "gender": "Male",
+    "reference": {
+      "group_number": "571572",
+      "group_number_description": "ABC COMPANY.",
+      "description": "ABC COMPANY."
+    },
+    "date_time_periods": [
+      {
+        "date_string": "01/01/2010",
+        "date_qualifier": "Policy Effective"
+      },
+      {
+        "date_string": "01/01/2018",
+        "date_qualifier": "Plan Begin"
+      },
+      {
+        "date_string": "12/31/2018",
+        "date_qualifier": "Plan End"
+      }
+    ],
+    "entity": "Insured or Subscriber",
+    "entity_qualifier": "Person",
+    "first_name": "John",
+    "last_name": "Doe",
+    "street": "807 WRIGHT COURT",
+    "city": "SAN GABRIEL",
+    "state": "CA",
+    "zip_code": "911075506"
+  },
+  "payer": {
+    "id": "METLIFE",
+    "name": "Metlife Dental Insurance"
+  },
+  "provider": {
+    "npi": "1234567890"
+  },
+  "activeCoverage": [
+    {
+      "coverage_level": "Employee Only",
+      "insurance_type": "Group Policy",
+      "service_type": "Health Benefit Plan Coverage",
+      "plan_coverage_description": "ABC COMPANY",
+      "messages": ["NO FILING LIMIT"]
+    }
+  ],
+  "deductible": [
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "service_type": "Periodontics",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "service_type": "Periodontics",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "service_type": "Periodontics",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "service_type": "Periodontics",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "service_type": "Periodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "service_type": "Periodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "service_type": "Periodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "service_type": "Periodontics",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "service_type": "Orthodontics",
+      "plan_coverage_description": "MET",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "service_type": "Orthodontics",
+      "plan_coverage_description": "MET",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "service_type": "Orthodontics",
+      "plan_coverage_description": "MET",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "service_type": "Orthodontics",
+      "plan_coverage_description": "MET",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "service_type": "Orthodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "service_type": "Orthodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "service_type": "Orthodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "service_type": "Orthodontics",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "plan_coverage_description": "MET",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Family",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Family",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "amount": "0.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "No",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "No",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "No",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "No",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "No",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D1351"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2391"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2630"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2643"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2750"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2954"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D2980"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D4260"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D4341",
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D4910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D5110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D5670"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D6010"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D6013"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D6210"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "50.00",
+      "procedure_code": "AD:D9222"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "Yes",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "Yes",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "Yes",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "Yes",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "Yes",
+      "amount": "50.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D1351"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2391"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2630"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2643"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2750"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2954"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D2980"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D4260"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D4341",
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D4910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D5110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D5670"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D6010"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D6013"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D6210"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "50.00",
+      "procedure_code": "AD:D9222"
+    }
+  ],
+  "coInsurance": [
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Diagnostic",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Preventative",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Orthodontics",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0150",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0210",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "10/27/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0270",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1110",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "quantity_description_string": "Age High Value: 18.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "18.0"
+      },
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1208",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "quantity_description_string": "Age High Value: 16.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "16.0"
+      },
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D1351",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "0",
+      "quantity_description_string": "Age High Value: 14.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "14.0"
+      },
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1510"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2140",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 6 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2391",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 6 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2630",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2643",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2750",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2910",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2954",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2980",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4260",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4341",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 2 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4910",
+      "health_services_description": [
+        {
+          "description": "4 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D5110",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D5670",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6010",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6013",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6210",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D8070"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D9222"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Diagnostic",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Preventative",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "service_type": "Orthodontics",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0150",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0210",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "10/27/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D0270",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1110",
+      "health_services_description": [
+        {
+          "description": "2 Visits in 1 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "quantity_description_string": "Age High Value: 18.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "18.0"
+      },
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1208",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "quantity_description_string": "Age High Value: 16.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "16.0"
+      },
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D1351",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "0",
+      "quantity_description_string": "Age High Value: 14.0",
+      "age_limit": {
+        "qualifier": "Age High Value",
+        "quantity": "14.0"
+      },
+      "percentage_for_provider": "100",
+      "percentage": "0.0",
+      "procedure_code": "AD:D1510"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2140",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 6 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2391",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 6 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2630",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2643",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2750",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2910",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D2954",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D2980",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4260",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 3 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4341",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 2 Calendar Year"
+        }
+      ],
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D4910",
+      "health_services_description": [
+        {
+          "description": "4 Visits in 1 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D5110",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D5670",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 12 Month"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6010",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6013",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D6210",
+      "health_services_description": [
+        {
+          "description": "1 Visits in 5 Calendar Year"
+        }
+      ]
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "50",
+      "percentage_for_provider": "50",
+      "percentage": "0.5",
+      "procedure_code": "AD:D8070"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "percentage_string": "20",
+      "percentage_for_provider": "80",
+      "percentage": "0.2",
+      "procedure_code": "AD:D9222"
+    }
+  ],
+  "nonCovered": [
+    {
+      "in_network_status": "No",
+      "procedure_code": "AD:D0431"
+    },
+    {
+      "in_network_status": "No",
+      "procedure_code": "AD:D7880"
+    },
+    {
+      "in_network_status": "No",
+      "procedure_code": "AD:D9940"
+    },
+    {
+      "in_network_status": "No",
+      "procedure_code": "AD:D9972"
+    },
+    {
+      "in_network_status": "Yes",
+      "procedure_code": "AD:D0431"
+    },
+    {
+      "in_network_status": "Yes",
+      "procedure_code": "AD:D7880"
+    },
+    {
+      "in_network_status": "Yes",
+      "procedure_code": "AD:D9940"
+    },
+    {
+      "in_network_status": "Yes",
+      "procedure_code": "AD:D9972"
+    }
+  ],
+  "maximums": [
+    {
+      "time_qualifier": "Remaining",
+      "coverage_level": "Individual",
+      "service_type": "Periodontics",
+      "amount": "90.00"
+    },
+    {
+      "time_qualifier": "Lifetime Remaining",
+      "coverage_level": "Individual",
+      "service_type": "Orthodontics",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Remaining",
+      "coverage_level": "Individual",
+      "amount": "90.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Diagnostic",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "messages": [
+        "THE MAXIMUMS AND DEDUCTIBLES FOR THESE SERVICES MAY BE COMBINED WITH OTHER TYPES OF PROCEDURES, SUCH AS TMJ OR PERIO."
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Preventative",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Orthodontics",
+      "in_network_status": "No",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0150",
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0210",
+      "date_time_periods": [
+        {
+          "date_string": "10/27/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0270"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1110",
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1208"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1351"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1510"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2391"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2630"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2643"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2750"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2954"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2980"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4260"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4341",
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5670"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6010"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6013"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6210"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D8070"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "No",
+      "amount": "1500.00",
+      "procedure_code": "AD:D9222"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Diagnostic",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "messages": [
+        "THE MAXIMUMS AND DEDUCTIBLES FOR THESE SERVICES MAY BE COMBINED WITH OTHER TYPES OF PROCEDURES, SUCH AS TMJ OR PERIO."
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Preventative",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Restorative",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Endodontics",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Periodontics",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Prosthodontics",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Oral Surgery",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "service_type": "Orthodontics",
+      "in_network_status": "Yes",
+      "amount": "1500.00"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0150",
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0210",
+      "date_time_periods": [
+        {
+          "date_string": "10/27/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D0270"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1110",
+      "date_time_periods": [
+        {
+          "date_string": "06/30/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1208"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1351"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D1510"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2391"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2630"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2643"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2750"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2954"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D2980"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D3310"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4260"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4341",
+      "date_time_periods": [
+        {
+          "date_string": "11/17/2017",
+          "date_qualifier": "Service"
+        }
+      ]
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4381"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D4910"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5670"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D5751"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6010"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6013"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D6210"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D7140"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D7240"
+    },
+    {
+      "time_qualifier": "Lifetime",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D8070"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D9110"
+    },
+    {
+      "time_qualifier": "Service Year",
+      "coverage_level": "Individual",
+      "insurance_type": "Group Policy",
+      "in_network_status": "Yes",
+      "amount": "1500.00",
+      "procedure_code": "AD:D9222"
+    }
+  ],
+  "limitations": [
+    {
+      "messages": ["WAITING PERIOD DOES NOT APPLY"]
+    },
+    {
+      "procedure_code": "AD:D1351",
+      "messages": [
+        "SECOND MOLAR - PERMANENT MOLARS ONLY, EXCLUDING WISDOM TEETH"
+      ]
+    },
+    {
+      "procedure_code": "AD:D1351",
+      "messages": [
+        "FIRST MOLAR - PERMANENT MOLARS ONLY, EXCLUDING WISDOM TEETH"
+      ]
+    },
+    {
+      "messages": ["PRIOR EXTRACTIONS ARE NOT COVERED"]
+    },
+    {
+      "messages": ["MULTI-VISIT PROCEDURES ARE PAID ON SEAT DATE"]
+    },
+    {
+      "procedure_code": "AD:D2393",
+      "messages": ["COMPOSITES ARE DOWNGRADED"]
+    },
+    {
+      "procedure_code": "AD:D2750",
+      "messages": ["PORCELAIN IS NOT DOWNGRADED ON BICUSPIDS"]
+    },
+    {
+      "procedure_code": "AD:D2750",
+      "messages": ["PORCELAIN IS DOWNGRADED ON MOLARS"]
+    }
+  ],
+  "metadata": []
+}
