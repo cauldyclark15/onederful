@@ -13,8 +13,12 @@ export const Samp = styled.samp`
 
 export const MainWrapper = styled.div`
   display: flex;
-  height: 100%;
   flex-direction: horizontal;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
 
   div.screen {
     display: flex;
@@ -29,7 +33,7 @@ export const MainWrapper = styled.div`
   }
 
   div.result {
-    flex: 10;
+    flex: 11;
     margin-right: 7px;
     margin-left: 3.5px;
   }
@@ -39,15 +43,14 @@ export const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 635px;
   padding: 15px;
+  height: 100%;
   box-shadow: 3px 4px 10px #aaaaaa;
   border: 1px solid #f8f8f8;
-  border-radius: 8px;
   overflow: auto;
   background: #fff;
 
   form {
-    padding-right: 60px;
+    padding-right: 55px;
   }
 `;

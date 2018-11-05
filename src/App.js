@@ -85,7 +85,7 @@ class App extends Component {
     return (
       <MainWrapper>
         <div className="screen form">
-          <CardWrapper>
+          <CardWrapper onScroll={showAddDependentFields} className="left">
             <Alert
               style={{ margin: '16px 0', paddingLeft: 20, paddingRight: 20 }}
               message="Information form"
@@ -98,7 +98,7 @@ class App extends Component {
           </CardWrapper>
         </div>
         <div className="screen result">
-          <CardWrapper>
+          <CardWrapper className="right">
             <Alert
               style={{ margin: '16px 0', paddingLeft: 20, paddingRight: 20 }}
               message="Patient's information"
