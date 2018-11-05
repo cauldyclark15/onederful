@@ -33,7 +33,7 @@ function Result({ data, isLoading, onSelect, menuIndex }) {
           <MenuItem key="3">Deductible</MenuItem>
           <MenuItem key="4">Limitations</MenuItem>
           <MenuItem key="5">Coinsurance</MenuItem>
-          <MenuItem key="6">Maximum</MenuItem>
+          <MenuItem key="6">Maximums</MenuItem>
         </Menu>
       </Header>
       <Content style={{ background: '#fff' }}>
